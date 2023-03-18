@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace HomeWork4
 {
-    internal interface IGameManagment
+    internal interface IEnterableTuple
     {
-        public bool CheckWin(IEnterable value);
+        public (int,int) Value { get; set; }
+
+        public (int,int) Enter();
     }
 }

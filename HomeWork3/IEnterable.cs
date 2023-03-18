@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace HomeWork4
 {
-    internal interface IEnterable <T>
+    internal interface IEnterable 
     {
-        public T Value { get;  set; }
+        public int Value { get;  set; }
 
-       public T Enter();
+       public int Enter();
     }
 }

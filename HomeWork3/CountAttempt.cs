@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork4
 {
-    internal class CountAttempt : IEnterable<int>
+    internal class CountAttempt : IEnterable
     {
         public int Value { get; set; }
 

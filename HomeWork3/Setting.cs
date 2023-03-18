@@ -4,12 +4,12 @@ namespace HomeWork4
 {
     internal class Setting
     {
-        public IEnterable <(int,int)> Range { get; set; }
+        public IEnterableTuple Range { get; set; }
 
-        public IEnterable<int> NumberOfAttempt { get; set; }
+        public IEnterable NumberOfAttempt { get; set; }
 
 
-        public Setting(IEnterable<(int, int)> range, IEnterable<int> numberOfAttempt)
+        public Setting(IEnterableTuple range, IEnterable numberOfAttempt)
         {
             
             Range = range;

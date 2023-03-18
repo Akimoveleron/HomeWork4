@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork4
 {
-    internal class RangeOfValues : IEnterable <(int,int)>
+    internal class RangeOfValues : IEnterableTuple
     {
         public (int, int) Value { get;set; }
 

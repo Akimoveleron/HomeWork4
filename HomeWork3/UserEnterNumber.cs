@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork4
 {
-    internal class UserEnterNumber :IEnterable<int>
+    internal class UserEnterNumber :IEnterable
     {
         public int Value { get; set; }
         public UserEnterNumber()

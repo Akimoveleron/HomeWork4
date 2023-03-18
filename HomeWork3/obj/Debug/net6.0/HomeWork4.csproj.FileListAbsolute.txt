@@ -1,0 +1,15 @@
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\bin\Debug\net6.0\HomeWork4.exe
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\bin\Debug\net6.0\HomeWork4.deps.json
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\bin\Debug\net6.0\HomeWork4.runtimeconfig.json
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\bin\Debug\net6.0\HomeWork4.dll
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\bin\Debug\net6.0\HomeWork4.pdb
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.csproj.AssemblyReference.cache
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.AssemblyInfoInputs.cache
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.AssemblyInfo.cs
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.csproj.CoreCompileInputs.cache
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.dll
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\refint\HomeWork4.dll
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.pdb
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\HomeWork4.genruntimeconfig.cache
+C:\Users\Emgrand\Desktop\OTUS\Homeworks\HomeWork4\HomeWork3\obj\Debug\net6.0\ref\HomeWork4.dll
