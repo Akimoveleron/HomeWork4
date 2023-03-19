@@ -1,33 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Tracing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HomeWork4.Interfaces;
+
 
 namespace HomeWork4
 {
-    internal class GameManagement:IGameManagment
+    internal class GameManagement
     {
-        public Setting Setting { get; private set; }
 
-        public int PickedNumber { get; private set; }
-
-        public GameManagement(Setting setting)
+        public int Init(ISetting setting)
         {
-            Setting = setting;
-            PickedNumber = new Random().Next(Setting.Range.Value.Item1, Setting.Range.Value.Item2 + 1);
+            return setting.SetValue();
         }
 
 
 
-        public bool CheckWin(IEnterable<int> gessedNumber)
+        public bool CheckWin(int userValue, int pickedNumber )
         {
-            if (gessedNumber.Value==PickedNumber)
+            if (userValue == pickedNumber)
             {
                 Console.WriteLine("Вы угадали!");
                 return true;
-            }else if (gessedNumber.Value <PickedNumber)
+            }else if (userValue <pickedNumber)
             {
                 Console.WriteLine( "Загаданное число больше");
                 return false;

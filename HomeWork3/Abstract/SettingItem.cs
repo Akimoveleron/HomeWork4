@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeWork4
+namespace HomeWork4.Abstract
 {
-    internal interface IEnterable 
+    internal class SettingItem
     {
-        public int Value { get;  set; }
-
-       public int Enter();
     }
 }

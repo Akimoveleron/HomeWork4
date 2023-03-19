@@ -1,20 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace HomeWork4
+namespace HomeWork4.Entities
 {
-    internal class UserEnterNumber :IEnterable
+    internal class UserEnterNumber : GameValue
     {
-        public int Value { get; set; }
-        public UserEnterNumber()
-        {
-            Value = Enter();
-        }
-
-        public  int Enter()
+        public override  int SetValue()
         {
             int gessedNumber = 0;
 

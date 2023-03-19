@@ -1,20 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace HomeWork4
+namespace HomeWork4.Entities
 {
-    internal class CountAttempt : IEnterable
+    internal class CountAttempt : GameValue
     {
-        public int Value { get; set; }
-
-        public CountAttempt()
-        {
-            Value = Enter();
-        }
-        public int Enter()
+      public override int SetValue()
         {
             Console.WriteLine("Введите количество попыток от 1 до 10");
             bool tryAgain = true;
@@ -38,8 +28,6 @@ namespace HomeWork4
                     Console.WriteLine();
                     Console.Write("Вы ввели некорректное число. Поробуйте ввести еще раз:");
                 }
-
-
 
             }
             return numberOfAttempts;

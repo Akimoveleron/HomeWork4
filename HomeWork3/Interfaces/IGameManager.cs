@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeWork4
+namespace HomeWork4.Interfaces
 {
-    internal interface IGameManagment
+    internal interface IGameManager
     {
-        public bool CheckWin(IEnterable value);
     }
 }

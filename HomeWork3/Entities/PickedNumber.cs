@@ -1,27 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace HomeWork4
+namespace HomeWork4.Entities
 {
-    internal class RangeOfValues : IEnterableTuple
-    {
-        public (int, int) Value { get;set; }
-
-        public RangeOfValues()
-        {
-           Value = Enter();
-        }
-
-
-       public  (int, int) Enter()
+    internal class PickedNumber : GameValue
+    {  
+        public override int SetValue()
         {
             Console.Write("Введите диапазон значений. Введите первое число:");
 
             int leftBorder = 0;
             int rightBorder = 0;
+            int pickedNumber = 0;
             bool leftBorderCorrect = false;
             bool rightBorderCorrect = false;
             while (!leftBorderCorrect || !rightBorderCorrect)
@@ -47,9 +36,11 @@ namespace HomeWork4
                 {
                     Console.WriteLine();
                     Console.Write("Вы ввели некорректное число. Поробуйте ввести еще раз:");
-               }
+                }
             }
-           return (leftBorder,rightBorder);
+
+            pickedNumber = new Random().Next(leftBorder, rightBorder + 1);
+            return pickedNumber;
         }
     }
 }
