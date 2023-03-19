@@ -8,5 +8,6 @@ namespace HomeWork4.Interfaces
 {
     internal interface IGameManager
     {
+        public bool CheckWin(int userValue, int pickedNumber);
     }
 }

@@ -1,8 +1,10 @@
 ﻿
 
+using HomeWork4.Abstract;
+
 namespace HomeWork4.Entities
 {
-    internal class CountAttempt : GameValue
+    internal class CountAttempt : SettingItem
     {
       public override int SetValue()
         {

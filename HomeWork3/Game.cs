@@ -24,7 +24,7 @@ namespace HomeWork4
             for (int i = 0; i < countAttemp; i++)
             {
                 int userValue = GameManagement. Init(new UserEnterNumber());          
-              isWin =  GameManagement.CheckWin(pickedValue, userValue);
+              isWin =  GameManagement.CheckWin(userValue, pickedValue);
                 if (isWin) return;       
             }
             Console.WriteLine( "Вы проиграли!");

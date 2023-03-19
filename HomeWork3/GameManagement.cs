@@ -3,7 +3,7 @@
 
 namespace HomeWork4
 {
-    internal class GameManagement
+    internal class GameManagement:IGameManager
     {
 
         public int Init(ISetting setting)
@@ -19,7 +19,7 @@ namespace HomeWork4
             {
                 Console.WriteLine("Вы угадали!");
                 return true;
-            }else if (userValue <pickedNumber)
+            }else if (userValue < pickedNumber)
             {
                 Console.WriteLine( "Загаданное число больше");
                 return false;

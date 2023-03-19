@@ -1,8 +1,9 @@
 ﻿
+using HomeWork4.Abstract;
 
 namespace HomeWork4.Entities
 {
-    internal class UserEnterNumber : GameValue
+    internal class UserEnterNumber : SettingItem
     {
         public override  int SetValue()
         {

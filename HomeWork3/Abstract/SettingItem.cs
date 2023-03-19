@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using HomeWork4.Interfaces;
+
 
 namespace HomeWork4.Abstract
 {
-    internal class SettingItem
+    internal abstract class SettingItem:ISetting
     {
+        public int Value { get; set; }
+
+        public abstract int SetValue();
     }
 }

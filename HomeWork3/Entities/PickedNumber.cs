@@ -1,8 +1,10 @@
 ﻿
 
+using HomeWork4.Abstract;
+
 namespace HomeWork4.Entities
 {
-    internal class PickedNumber : GameValue
+    internal class PickedNumber : SettingItem
     {  
         public override int SetValue()
         {
